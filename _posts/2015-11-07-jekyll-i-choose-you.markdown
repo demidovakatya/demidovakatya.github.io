@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Jekyll, I choose you!"
-date:   2015-11-07
+published: true
+
 ---
 
 I've find this post in my `_posts` directory. God bless the [Jekyll’s GitHub repo](https://github.com/jekyll/jekyll) for this awesome *static site generator*.
