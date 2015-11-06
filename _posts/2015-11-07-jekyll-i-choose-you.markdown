@@ -7,7 +7,7 @@ published: true
 
 I've find this post in my `_posts` directory. God bless the [Jekyll’s GitHub repo](https://github.com/jekyll/jekyll) for this awesome *static site generator*.
 
-<img src="http://jekyllrb.com/img/octojekyll.png" width=300>
+![](http://jekyllrb.com/img/octojekyll.png)
 
 Finally...
 
