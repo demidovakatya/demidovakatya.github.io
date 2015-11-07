@@ -5,17 +5,19 @@ published: true
 
 ---
 
-I've find this post in my `_posts` directory. God bless the [Jekyll’s GitHub repo](https://github.com/jekyll/jekyll) for this awesome *static site generator*.
+I've found this post in my `_posts` directory. God bless the [Jekyll’s GitHub repo](https://github.com/jekyll/jekyll) for this awesome *static site generator*.
 
-<img src="http://jekyllrb.com/img/octojekyll.png" width=300>
+![](http://jekyllrb.com/img/octojekyll.png)
 
 Finally...
 
-I tried to make a blog with [Hexo](https://hexo.io) a couple of days ago, but I quickly understood that this framework wasn't an option for me. The main reason was that **Hexo** documentation was difficult for me to understand. I'm not a programmer, you know! More than that, English is not my mother~~fucking~~ language ~~do I speak it?!~~. That's why things like **generate** and **deploy** looked like Castor and Pollux to me – yeh, wow, cool, but what's the difference.
+I wanted to make a blog with [Hexo](https://hexo.io), but I quickly understood that this framework wasn't an option for me. And it's all my fault. I'm not a programmer, you know. Oh, and English is not my mother language.
 
-![Castor and Pollux](http://demidovakatya.github.io/assets/castor-pollux.gif)
+That's why I **hate** reading documentation. Deploy, generate, commit, synch, update, et cetera, et cetera. Damn, do you know how to deal with words? You shouldn't take a bunch of similar verbs and put them in one place! Especialy if you are going to use these words separately. In random places. Hexo documentation was fucking with my vocabulary, attention span and lack of programming skills.
 
-Secondly, **Hexo** is not as popular as **Jekyll**. And audience means a lot: people ask questions, people give answers, people make plugins and themes, people create issues and fix bugs. A project is not going to be improved by itself. 
+Nevertheless, I tried to find some instructions or examples on GitHub or StackOverflow. And, you know, Hexo is not as popular as Jekyll (at all). And people mean a lot for open-source projects (like Hexo or Jekyll): people ask questions, people give answers, people make plugins and themes, people create issues and fix bugs. Popularity makes these projects grow (and this growth results in becoming popular). 
+
+So I decided to try Jekyll. And it's really cool and easy.
 
 ## Now what?
 
