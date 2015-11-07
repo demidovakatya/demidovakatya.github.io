@@ -3,21 +3,19 @@ layout: default
 ---
 
 <div class="home">
+  <h1 class="page-heading">What's up</h1>
 
-  <h1 class="page-heading">Posts</h1>
+  <p>{{ site.description }}</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <p>By the way, here are my recent posts:</p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  {% for post in site.posts %}
+    <div class="post-preview">
+      <p><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>      
+      <p><span class="post-meta">{{ post.date | date: "%d/%m/%Y" }}</span> {{ post.excerpt }}</p>
+    </div>
+  {% endfor %}
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  
 
 </div>

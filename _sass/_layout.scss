@@ -4,7 +4,7 @@
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    min-height: 40px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -13,7 +13,7 @@
 .site-title {
     font-size: 26px;
     font-weight: 300;
-    line-height: 56px;
+    line-height: 40px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
@@ -26,7 +26,7 @@
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 40px;
 
     .menu-icon {
         display: none;
@@ -102,53 +102,29 @@
     padding: $spacing-unit 0;
 }
 
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-}
 
 .footer-col-wrapper {
-    font-size: 15px;
+    font-size: $small-font-size;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
 
 .footer-col {
-    float: left;
+    float: none;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+    
+    p {
+        text-align: center;
+    }
 }
 
 @include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
+    .footer-col {
+        float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
@@ -172,7 +148,7 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 42px;
 }
 
 .post-list {
@@ -181,6 +157,16 @@
 
     > li {
         margin-bottom: $spacing-unit;
+    }
+}
+
+.post-preview {
+    border-top: 1px solid $grey-color-light;
+    padding-top: 10px;
+    padding-bottom:20px;
+    
+    p {
+        margin-bottom: 10px;
     }
 }
 
@@ -194,7 +180,10 @@
     font-size: 24px;
 }
 
-
+/** Breadcrumb **/
+.breadcrumb {
+    margin-bottom: 42px;
+}
 
 /**
  * Posts
@@ -205,7 +194,6 @@
 
 .post-title {
     font-size: 42px;
-    letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
