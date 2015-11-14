@@ -5,7 +5,7 @@ published: true
 
 ---
 
-I've found this post in my `_posts` directory. God bless the [Jekyll’s GitHub repo](https://github.com/jekyll/jekyll) for this awesome *static site generator*.
+I've found this post in my `_posts` directory. God bless Jekyll ([GitHub repo](https://github.com/jekyll/jekyll)) for this awesome *static site generator*.
 
 ![](http://jekyllrb.com/img/octojekyll.png)
 
