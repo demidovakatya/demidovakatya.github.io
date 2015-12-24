@@ -22,5 +22,5 @@ Social links:
 
 ## About this blog ##
 
-This blog is powered by Jekyll and hosted at Github pages. The base Jekyll theme is used. You can find out more info about it at [jekyllrb.com](http://jekyllrb.com/). I have customized it a little (all changes in [https://github.com/demidovakatya/demidovakatya.github.io/commit/971c2e59082d31d2ca1655045af461a7b7e36e84](this commit)).
+This blog is powered by Jekyll and hosted at Github pages. The base Jekyll theme is used. You can find out more info about it at [jekyllrb.com](http://jekyllrb.com/). I have customized it a little (all changes in [this commit](https://github.com/demidovakatya/demidovakatya.github.io/commit/971c2e59082d31d2ca1655045af461a7b7e36e84)).
 
