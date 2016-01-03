@@ -9,7 +9,7 @@ published: false
 
 ## :q
 
-In April, I made a huge **:q** (sry) – I quit my job due to a mix of mental and physical problems and took a break.
+In April, I quit my job due to a mix of personal issues and decided to take a break.
 
 Few days later, when my head could work again, I noticed *something* on the edge of my consciousness – and when I caught it, an incredible existential experience happened to me.
 
@@ -53,14 +53,12 @@ On June 1th (or 3rd), I decided that I wanted to do web-design, and started lear
 
 I'd been having fun until some annoying `div`s refused to obey my orders and were sent to hell for that (along with JavaScript). I didn't even try – mostly because I didn't want to let this front-end crap into my life.
 
-
 Little by little, my interests were moving towards the "True IT" area which I always admired of. Getting (and quickly leaving) a shitty seo job resulted in my firm and definitive desicion **to never work in seo, or web marketing, or ecommerce-web-development** and avoid it by all means. Because in our country most part of *web-marketing* is bullshit and/or posting pictures to the company's social page.
 
 
 ## :a
 
 Yesterday, I suddenly decided to apply for some jobs. And while doing it, I realised that for the first time, I was confident in my skills and abilities **and** loved the career path I'd chosen.
-
 
 I've been studying hard as fuck since the end of September. And it's never enough for me: do some more analysis, make prettier histograms, go to Github and laugh at `readme`s written by guys from India...
 
