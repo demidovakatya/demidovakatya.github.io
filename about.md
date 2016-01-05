@@ -10,13 +10,15 @@ Hi, I'm Katya and this is my blog.
 
 Location: Saint Petersburg, Russia.
 
-Current occupation: surfing the web, writing stuff, sometimes even code. Studying. I spend a lot of time learning different things, mostly R (and statistics) and Python. I can't tell if I've *learned* a lot, but at least I finish courses at Coursera:
+Current occupation: surfing the web, writing stuff, sometimes even code. Contributing to open-source projects.
+
+Studying. I spend a lot of time learning different things, mostly R (and statistics) and Python. I've learned a lot (A LOT), and, what I'm personally proud of, I finish courses at Coursera:
 
 ![finished courses](/assets/coursera.png)
 
 Social links:
 
-* [twitter](https://twitter.com/fuckingsun)
+* [linkedin](https://ru.linkedin.com/in/demidovakatya/en)
 * [github](https://github.com/demidovakatya)
 * [facebook](https://www.facebook.com/demidovakatya)
 
