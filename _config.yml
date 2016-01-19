@@ -1,14 +1,13 @@
---- 
+---
 baseurl: ""
 excerpt_separator: "\n\n"
-description: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin."
+description: ""
 github_username: demidovakatya
 highlighter: pygments
-kramdown: 
+kramdown:
   input: GFM
 markdown: kramdown
 paginate_path: /:num
 permalink: "/blog/:title"
 title: "My awesome blog"
-twitter_username: fuckingsun
 url: "http://demidovakatya.github.io"
