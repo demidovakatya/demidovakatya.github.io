@@ -3,7 +3,7 @@ baseurl: ""
 excerpt_separator: "\n\n"
 description: ""
 github_username: demidovakatya
-highlighter: pygments
+highlighter: rouge
 kramdown:
   input: GFM
 markdown: kramdown
