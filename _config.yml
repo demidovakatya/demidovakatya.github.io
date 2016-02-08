@@ -1,7 +1,7 @@
 ---
 baseurl: ""
 excerpt_separator: "\n\n"
-description: ""
+description: "Hi. My name is Katya Demidova, I'm a wannabe programmer/data scientist, and my blog is dedicated to becoming an IT specialist."
 github_username: demidovakatya
 highlighter: rouge
 kramdown:
@@ -11,3 +11,12 @@ paginate_path: /:num
 permalink: "/blog/:title"
 title: "My awesome blog"
 url: "http://demidovakatya.github.io"
+defaults:
+  -
+    scope:
+      path: "_drafts"
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Katya Demidova"
+timezone: "Europe/Moscow"

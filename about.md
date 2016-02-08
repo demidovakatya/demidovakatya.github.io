@@ -1,12 +1,10 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
 Hi, I'm Katya and this is my blog.
-
-## About me ##
 
 Location: Saint Petersburg, Russia.
 
