@@ -4,9 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-Hi, I'm Katya and this is my blog.
-
-Location: Saint Petersburg, Russia.
+Hi, I'm Katya. I'm 23 years old and I live in Saint Petersburg, Russia.
 
 Current occupation: surfing the web, writing stuff, sometimes even code. Contributing to open-source projects.
 
