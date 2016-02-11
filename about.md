@@ -17,6 +17,7 @@ Social links:
 * [linkedin](https://ru.linkedin.com/in/demidovakatya/en)
 * [github](https://github.com/demidovakatya)
 * [facebook](https://www.facebook.com/demidovakatya)
+* [my photos](http://captain-cotique.tumblr.com)
 
 ## About this blog ##
 
