@@ -7,12 +7,11 @@ layout: default
 
   <p>{{ site.description }}</p>
 
-  <p>By the way, here are my recent posts:</p>
+  <p class="intro-post-list">By the way, here are my recent posts:</p>
 
   {% for post in site.posts %}
     <div class="post-preview">
-      <p><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>      
-      <p><span class="post-meta">{{ post.date | date: "%d/%m/%Y" }}</span> {{ post.excerpt }}</p>
+      <p><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <span class="post-meta">{{ post.date | date: "%d/%m/%Y" }}</span></p>
     </div>
   {% endfor %}
 
