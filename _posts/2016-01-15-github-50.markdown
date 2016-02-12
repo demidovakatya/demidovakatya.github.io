@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GitHub 50"
+title:  "GitHub streak: 50"
 published: true
 
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Year of Programming"
+title:  "A year of programming"
 published: true
 
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python Rounds Like a Pro"
+title:  "Python rounds like a pro"
 published: true
 
 ---
