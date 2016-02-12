@@ -1,7 +1,7 @@
 ---
 baseurl: ""
-excerpt_separator: "\n\n"
-description: "Hi. My name is Katya Demidova, I'm a wannabe programmer/data scientist, and my blog is dedicated to becoming an IT specialist."
+# excerpt_separator: "\n\n"
+description: "Hi. My name is Katya Demidova, and I'd love to write more."
 github_username: demidovakatya
 highlighter: rouge
 kramdown:
