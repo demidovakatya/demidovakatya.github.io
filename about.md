@@ -13,11 +13,13 @@ Social links:
 * [facebook](https://www.facebook.com/demidovakatya)
 * [my photos](http://captain-cotique.tumblr.com)
 
-Current occupation: surfing the web, writing stuff, sometimes even code. Contributing to open source projects.
+Current occupation: surfing the web, writing stuff, sometimes even code. 
+
+Contributing to open source projects.
+
+Studying.
 
 I spend a lot of time learning different things, mostly R/Python for statistics and machine learning. I've learned a lot, and, what I'm personally proud of, developed a habit to finish online courses (did you know that completion rate for MOOCs is about 15-20%? not for me!).
-
-### Finished
 
 * <a href="https://www.coursera.com/learn/grammar-punctuation" target="_blank">Grammar and Punctuation</a> (University of California, Irvine)
 * <a href="https://www.coursera.org/specializations/python">Python for Everybody Specialization</a> (University of Michigan): 
