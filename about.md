@@ -21,5 +21,9 @@ Social links:
 
 ## About this blog ##
 
+<<<<<<< Updated upstream
 This blog is powered by Jekyll and hosted at Github pages. The base Jekyll theme is used. You can find out more info about it at [jekyllrb.com](http://jekyllrb.com/). I have customized it a little.
+=======
+This blog is powered by Jekyll and hosted at Github pages. The base Jekyll theme is used, I've just customized it a little.
+>>>>>>> Stashed changes
 
