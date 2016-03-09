@@ -30,7 +30,7 @@ I spend a lot of time learning different things, mostly R/Python for statistics 
 * <a href="https://www.coursera.com/course/genpython" target="_blank">Python for Genomic Data Science</a> (Johns Hopkins University)
 * Data Science Specialization (Johns Hopkins University)
     * <a href="https://www.coursera.com/course/datascitoolbox" target="_blank">The Data Scientist’s Toolbox</a> – <a href="https://www.coursera.org/account/accomplishments/records/8V5CAMQU2S2G" target="_blank">View Statement of Accomplishment</a>
-    * <a href="https://www.coursera.com/course/rprog" target="_blank">R Programming</a>
+    * <a href="https://www.coursera.com/course/rprog" target="_blank">R Programming</a> – <a href="https://www.coursera.org/account/accomplishments/records/3PE2MRX6F36X" target="_blank">View Statement of Accomplishment</a>
     * <a href="https://www.coursera.com/course/getdata" target="_blank">Getting and Cleaning Data</a>
     * <a href="https://www.coursera.com/course/exdata" target="_blank">Exploratory Data Analysis</a>
     * <a href="https://www.coursera.com/course/repdata" target="_blank">Reproducible Research</a>
