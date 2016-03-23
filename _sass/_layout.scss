@@ -202,11 +202,13 @@
     line-height: 1;
     padding-top: 20px;
     
-    border-top: 1px solid $grey-color-light;
-
     @include media-query($on-laptop) {
         font-size: 36px;
     }
+}
+
+.breadcrumb + .post-title {
+    border-top: 1px solid $grey-color-light;
 }
 
 .post-content {
