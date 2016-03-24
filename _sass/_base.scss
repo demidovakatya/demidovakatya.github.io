@@ -47,7 +47,9 @@ img {
     vertical-align: middle;
 }
 
-
+.centered-img {
+    text-align: center;
+}
 
 /**
  * Figures
@@ -114,14 +116,18 @@ blockquote {
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
+    letter-spacing: -0.5px; 
+    margin-top: 18px;
 
     > :last-child {
         margin-bottom: 0;
     }
 }
 
+.quote-author {
+    /*text-align: right;*/
+    font-style: italic;
+}
 
 
 /**
