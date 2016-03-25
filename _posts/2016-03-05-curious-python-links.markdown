@@ -42,4 +42,4 @@ These _precious_ Reddit and Twitter bots are from my Safari Reading List. I've a
 
 > I've mainly used python for basic task automation at work (I'm a network engineer). I'm wondering what modules should every python developer be good with? Are there common ones that everyone should know how to use? I mean more than just sys, time, etc...
 
-[link to the original thread](https://www.reddit.com/r/Python/comments/3yg2u4/modules_every_python_developer_should_know/) ★ by [/u/InternalCode](https://www.reddit.com/user/InternalCode) 
+<p class="quote-author">by <a href="https://www.reddit.com/user/InternalCode">/u/InternalCode</a> ★ <a href="https://www.reddit.com/r/Python/comments/3yg2u4/modules_every_python_developer_should_know/">link to the original thread</a></p> 

@@ -1,9 +1,14 @@
 ---
 title: MS Azure Machine Learning
 layout: post
+comments: true
 ---
 
-Table of contents:
+**Microsoft Azure** is a cloud computing platform and infrastructure created by Microsoft for building, deploying, and managing applications and services through a global network of Microsoft-managed datacenters. 
+
+<p class="centered-img"><img src="/assets/azure.jpg"></p>
+
+### Table of contents
 
 * [Sign Up](#sign-up)
 * [Add a Dataset](#add-a-dataset)
