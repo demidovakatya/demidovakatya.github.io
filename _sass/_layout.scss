@@ -1,6 +1,5 @@
-/**
- * Site header
- */
+/** * * *  * * *  * * *  * * *  * * *  * * *  * * *  * * * */
+/** * Site header */
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
@@ -94,31 +93,31 @@
 
 
 
-/**
- * Site footer
- */
+/** * * *  * * *  * * *  * * *  * * *  * * *  * * *  * * * */
+/** * Site footer */
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    // background-image: url('bg.jpg');
+    background-position: center;
 }
 
 
 .footer-col-wrapper {
-    font-size: $small-font-size;
-    color: $grey-color;
+    // font-size: $small-font-size;
+    // color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
-}
 
-.footer-col {
-    float: none;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
-    
-    p {
-        text-align: center;
+    .footer-col {
+        float: none;
+        margin-bottom: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+        
+        p {text-align: center;}
+        a {color: $grey-color;}
     }
 }
 
@@ -140,9 +139,9 @@
 
 
 
-/**
- * Page content
- */
+
+/** * * *  * * *  * * *  * * *  * * *  * * *  * * *  * * * */
+/** * Page content */
 .page-content {
     padding: $spacing-unit 0;
 }
@@ -174,6 +173,10 @@
     }*/
 }
 
+
+
+
+/** * * *  POST META  * * * */
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
@@ -184,15 +187,8 @@
     font-size: 24px;
 }
 
-/** Breadcrumb **/
-.breadcrumb {
-    margin-bottom: 30px;
-    font-size: 14px;
-}
-
-/**
- * Posts
- */
+/** * * *  * * *  * * *  * * *  * * *  * * *  * * *  * * * */
+/** * POST HEADER */
 .post-header {
     margin-bottom: $spacing-unit;
 }
@@ -207,15 +203,25 @@
     }
 }
 
-.breadcrumb + .post-title {
+/** * * *  * * *  * * *  * * *  * * *  * * *  * * *  * * * */
+/** Breadcrumbs **/
+.breadcrumbs {
+    margin-bottom: 30px;
+    // font-size: $small-font-size;
+}
+
+.breadcrumbs + .post-title {
     border-top: 1px solid $grey-color-light;
 }
 
+/** * * *  * * *  * * *  * * *  * * *  * * *  * * *  * * * */
+/** POST CONTENT **/
 .post-content {
     margin-bottom: $spacing-unit;
 
     h2 {
         font-size: 32px;
+        margin-top: 45px;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -224,6 +230,7 @@
 
     h3 {
         font-size: 26px;
+        margin-top: 35px;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -243,6 +250,9 @@
     }
 }
 
+
+/** * * *  * * *  * * *  * * *  * * *  * * *  * * *  * * * */
+/* * * * * IN PROGRESS BLOCK */
 .in-progress {
     text-align: center;
     padding: 18px;
