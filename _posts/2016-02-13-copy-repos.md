@@ -8,7 +8,7 @@ published: true
 This is a quick note to myself.
 
 ```
-# where to copy
+# where to copy (folder of the target repo)
 $ cd awesome-stuff
 
 # https://github.com/username/whatever.git - remote to be copied 

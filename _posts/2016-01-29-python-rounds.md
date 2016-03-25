@@ -5,6 +5,6 @@ published: true
 
 ---
 
-![Screenshot of Python](/assets/round-py.png)
+<p class="centered image"><img src="/assets/round-py.png"></p>
 
 I've been laughing loudly for five minutes. 

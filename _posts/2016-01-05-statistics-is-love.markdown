@@ -16,10 +16,10 @@ Here is a list of nice online courses dedicated to statistics and/or probability
 
 That's all, folks! Look at these cute plots:
 
-![](/assets/p-a-and-b.png)
+<p class="centered-image"><img src="/assets/p-a-and-b.png"></p>
 
-![](/assets/p-a-or-b.png)
+<p class="centered-image"><img src="/assets/p-a-or-b.png"></p>
 
-![](/assets/mutually-exclusive.png)
+<p class="centered-image"><img src="/assets/mutually-exclusive.png"></p>
 
-![](/assets/conditional-probability.png)
+<p class="centered-image"><img src="/assets/conditional-probability.png"></p>
