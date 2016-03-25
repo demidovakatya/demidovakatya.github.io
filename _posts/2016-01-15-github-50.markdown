@@ -5,6 +5,6 @@ published: true
 
 ---
 
-<p class="centered-image"><img src="/assets/github50.png"></p>
+<p class="centered-img"><img src="/assets/github50.png"></p>
 
 Remember, how I challenged myself to code every day for at least a year? I've already passed my first 50! Now it's much more difficult to stop than to continue.

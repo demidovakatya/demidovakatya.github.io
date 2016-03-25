@@ -5,6 +5,6 @@ published: true
 
 ---
 
-<p class="centered image"><img src="/assets/round-py.png"></p>
+<p class="centered-img"><img src="/assets/round-py.png"></p>
 
 I've been laughing loudly for five minutes. 
