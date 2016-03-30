@@ -6,6 +6,8 @@ permalink: /cv/
 
 <p class="in-progress">work in progress</p>
 
+<a href="https://www.linkedin.com/in/demidovakatya/en"></a>><i class="fa fa-linkedin"></i> My LinkedIn profile</a>
+
 ## Courses 
 
 * MIT 6.00.1x: Introduction to Computer Science and Programming Using Python – <a href="https://courses.edx.org/certificates/a0da1fc2bfc745af9e3b2802105ff5dc" target="_blank">View Web Certificate</a>
