@@ -6,7 +6,7 @@ permalink: /cv/
 
 <p class="in-progress">work in progress</p>
 
-<a href="https://www.linkedin.com/in/demidovakatya/en"></a>><i class="fa fa-linkedin"></i> My LinkedIn profile</a>
+<a href="https://www.linkedin.com/in/demidovakatya/en"><i class="fa fa-linkedin"></i> My LinkedIn profile</a>
 
 ## Courses 
 
