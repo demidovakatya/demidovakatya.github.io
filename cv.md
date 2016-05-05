@@ -10,9 +10,12 @@ permalink: /cv/
 
 ## Courses 
 
-* MIT 6.00.1x: Introduction to Computer Science and Programming Using Python – <a href="https://courses.edx.org/certificates/a0da1fc2bfc745af9e3b2802105ff5dc" target="_blank">View Web Certificate</a>
-* <a href="https://www.coursera.org/learn/mathematics-and-python/home/welcome">Математика и Python для анализа данных</a> (Moscow Institute of Physics and Technology) – <a href="https://www.coursera.org/account/accomplishments/records/W82UVA27KM6U" target="_blank">View Statement of Accomplishment</a>
+* Специализация <a href="">Машинное обучение и анализ данных</a> (Moscow Institute of Physics and Technology):
+    * <a href="https://www.coursera.org/learn/mathematics-and-python/home/welcome">Математика и Python для анализа данных</a> – <a href="https://www.coursera.org/account/accomplishments/records/W82UVA27KM6U" target="_blank">View Statement of Accomplishment</a>
+    * <a href="https://www.coursera.org/learn/supervised-learning/home/welcome">Обучение на размеченных данных</a> – <a href="https://www.coursera.org/account/accomplishments/certificate/7HJB389DV53Y" target="_blank">View Statement of Accomplishment</a>
+    * <a href="https://www.coursera.org/learn/unsupervised-learning/home/welcome">Поиск структуры в данных</a> – <a href="https://www.coursera.org/account/accomplishments/certificate/7HJB389DV53Y" target="_blank">View Statement of Accomplishment</a>
 * <a href="https://www.coursera.org/learn/vvedenie-mashinnoe-obuchenie/home/info">Введение в машинное обучение</a> (Higher School of Economics) – <a href="https://www.coursera.org/account/accomplishments/records/WUPNNFRC9R9U" target="_blank">View Statement of Accomplishment</a>
+* MIT 6.00.1x: Introduction to Computer Science and Programming Using Python – <a href="https://courses.edx.org/certificates/a0da1fc2bfc745af9e3b2802105ff5dc" target="_blank">View Web Certificate</a>
 * <a href="https://www.coursera.org/learn/grammar-punctuation" target="_blank">Grammar and Punctuation</a> (University of California, Irvine)
 * <a href="https://www.coursera.org/specializations/python">Python for Everybody Specialization</a> (University of Michigan): 
     * <a href="https://www.coursera.org/learn/python" target="_blank">Programming for Everybody (Getting Started with Python)</a>
