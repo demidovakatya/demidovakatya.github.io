@@ -26,25 +26,30 @@ But I know – and, I bet, you know – where are everybody. Slack, Telegram, Wh
 Secure chats, channels, stickers are awesome. And Telegram bots are awesome as well – you just need someone to show you that awesomeness. I am amazed how easier life may become after adding these bots to your Telegram:
 
 * [VK Music Bot](https://telegram.me/vkmusic_bot);
-* https://telegram.me/thesaurusdictbot;
-* https://telegram.me/imandabot;
-* https://telegram.me/EvaNote_bot;
-* https://telegram.me/storebot;
-* https://telegram.me/todoit_bot;
-* https://telegram.me/delorean_bot;
-* https://telegram.me/do_itBot;
-* https://telegram.me/app_of_the_day_bot;
-* https://telegram.me/markdownrobot;
-* https://telegram.me/Leprazobot;
-* https://telegram.me/WolframBot;
-* https://telegram.me/ImageBot;
-* https://telegram.me/GetMusicBot;
-* https://telegram.me/WhoisRobot;
-* https://telegram.me/pockebot;
-* https://telegram.me/utilsbot;
-* https://telegram.me/wikipedia_voice_bot;
-* https://telegram.me/Manybot;
-* https://telegram.me/topdf_bot;
-* https://telegram.me/temp_mail_bot;
-* https://telegram.me/YTranslateBot;
-* https://telegram.me/pomodoro_timer_bot.
+* [GetMusicBot](https://telegram.me/GetMusicBot);
+* [ThesaurusDictBot](https://telegram.me/thesaurusdictbot);
+* [UrbanDictionary Bot](https://telegram.me/UrbanBot) – allows you to get definitions for words or phrases from UrbanDictionary;
+* [imandabot](https://telegram.me/imandabot);
+* [EvaNote bot](https://telegram.me/EvaNote_bot);
+* [Storebot](https://telegram.me/storebot) – helps you discover the best bots available on Telegram;
+* [ToDo It bot](https://telegram.me/todoit_bot);
+* [Delorean bot](https://telegram.me/delorean_bot) – sends your messages to the future;
+* [Do It Bot](https://telegram.me/do_itBot);
+* [App of the Day bot](https://telegram.me/app_of_the_day_bot);
+* [Markdown Robot](https://telegram.me/markdownrobot);
+* [Leprazobot](https://telegram.me/Leprazobot);
+* [WolframBot](https://telegram.me/WolframBot);
+* [ImageBot](https://telegram.me/ImageBot);
+* [WhoisRobot](https://telegram.me/WhoisRobot);
+* [pockebot](https://telegram.me/pockebot);
+* [utilsbot](https://telegram.me/utilsbot);
+* [Wikipedia Voice Bot](https://telegram.me/wikipedia_voice_bot);
+* [Manybot](https://telegram.me/Manybot);
+* [ToPDF Bot](https://telegram.me/topdf_bot);
+* [Temp Mail Bot](https://telegram.me/temp_mail_bot);
+* [YTranslateBot](https://telegram.me/YTranslateBot);
+* [Pomodoro timer bot](https://telegram.me/pomodoro_timer_bot);
+* [StepicBot](https://telegram.me/StepicBot);
+* [FreeBooksBot](https://telegram.me/FreeBooksBot) – if you miss Flibusta bot, you'll definitely will enjoy this one . Type in what you need, get something in a day or two;
+* [latexxbot](https://telegram.me/latexxbot) generates formatted images from your LaTeX code;
+* [Lurkmore bot](https://telegram.me/lurkthatbot) – finds Lurkmore articles for you and send it 
