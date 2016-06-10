@@ -25,8 +25,9 @@ But I know – and, I bet, you know – where are everybody. Slack, Telegram, Wh
 
 Secure chats, channels, stickers are awesome. And Telegram bots are awesome as well – you just need someone to show you that awesomeness. I am amazed how easier life may become after adding these bots to your Telegram:
 
-* [VK Music Bot](https://telegram.me/vkmusic_bot);
+* [VK Music Bot](https://telegram.me/vkmusic_bot) – helps you to find, listen and download music from vk;
 * [GetMusicBot](https://telegram.me/GetMusicBot);
+* [FreeBooksBot](https://telegram.me/FreeBooksBot) – if you miss Flibusta bot, you'll definitely will enjoy this one. Type in what you need, get something in a day or two;
 * [ThesaurusDictBot](https://telegram.me/thesaurusdictbot);
 * [UrbanDictionary Bot](https://telegram.me/UrbanBot) – allows you to get definitions for words or phrases from UrbanDictionary;
 * [imandabot](https://telegram.me/imandabot);
@@ -50,6 +51,5 @@ Secure chats, channels, stickers are awesome. And Telegram bots are awesome as w
 * [YTranslateBot](https://telegram.me/YTranslateBot);
 * [Pomodoro timer bot](https://telegram.me/pomodoro_timer_bot);
 * [StepicBot](https://telegram.me/StepicBot);
-* [FreeBooksBot](https://telegram.me/FreeBooksBot) – if you miss Flibusta bot, you'll definitely will enjoy this one . Type in what you need, get something in a day or two;
 * [latexxbot](https://telegram.me/latexxbot) generates formatted images from your LaTeX code;
 * [Lurkmore bot](https://telegram.me/lurkthatbot) – finds Lurkmore articles for you and send it 
