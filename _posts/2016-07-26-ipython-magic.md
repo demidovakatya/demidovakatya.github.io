@@ -3,13 +3,15 @@ title: IPython's magic functions
 layout: post
 ---
 
-I love IDEs. And I use Python quite often. And since my Macbook Air goes mad when I open JetBrains's PyCharm, there are not so many decent options for me – Spyder, Rodeo, Sublime Text (which is totally awesome, but it's not an IDE), – and IPython, my favorite tool for writing and running all that stuff I write in Python. 
+I love IDEs. And I use Python quite often. And since my Macbook Air goes mad when I open JetBrains's PyCharm, there are not so many decent options for me – Spyder, Rodeo, Sublime Text (which is totally awesome, but it's not an IDE), – and IPython, my favorite tool for writing and running all that stuff I write in Python.
 
-The magic function system provides a series of functions which allow you to
+**Magic functions** are one of the IPython's cool features. The magic function system provides a series of functions which allow you to
 control the behavior of IPython itself, plus a lot of system-type
-features. There are two kinds of magics, line-oriented and cell-oriented.
+features. 
 
-Line magics are prefixed with the `%` character and work much like OS
+There are two kinds of magics, **line-oriented** and **cell-oriented**.
+
+**Line magics** are prefixed with the `%` character and work much like OS
 command-line calls: they get as an argument the rest of the line, where
 arguments are passed without parentheses or quotes.  For example, this will
 time the given statement::
@@ -18,8 +20,7 @@ time the given statement::
 %timeit range(1000)
 ```
 
-Cell magics are prefixed with a double `%%`, and they are functions that get as
-an argument not only the rest of the line, but also the lines below it in a
+**Cell magics** are prefixed with a double `%%`, and they are functions that get as an argument not only the rest of the line, but also the lines below it in a
 separate argument.  These magics are called with two arguments: the rest of the
 call line and the body of the cell, consisting of the lines below the first.
 For example::
