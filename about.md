@@ -21,4 +21,7 @@ Contributing to open source projects.
 
 Studying. 
 
+> Everything is interesting if you go into it deeply enough.
+
+<p class="quote-author">- Richard Feynman</p>
 
