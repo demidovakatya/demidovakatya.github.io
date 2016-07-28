@@ -11,27 +11,44 @@ features.
 
 There are two kinds of magics, **line-oriented** and **cell-oriented**.
 
-**Line magics** are prefixed with the `%` character and work much like OS
+## Line magics
+
+Line magics are prefixed with the `%` character and work much like OS
 command-line calls: they get as an argument the rest of the line, where
-arguments are passed without parentheses or quotes.  For example, this will
-time the given statement::
+arguments are passed without parentheses or quotes.
+
+For example, this will time the given statement:
 
 ```
 %timeit range(1000)
 ```
 
-**Cell magics** are prefixed with a double `%%`, and they are functions that get as an argument not only the rest of the line, but also the lines below it in a
+Full list of available line magic functions (from `%lsmagic`):
+
+```
+%alias  %alias_magic  %autocall  %automagic  %autosave  %bookmark  %cat  %cd  %clear  %colors  %config  %connect_info  %cp  %debug  %dhist  %dirs  %doctest_mode  %ed  %edit  %env  %gui  %hist  %history  %install_default_config  %install_ext  %install_profiles  %killbgscripts  %ldir  %less  %lf  %lk  %ll  %load  %load_ext  %loadpy  %logoff  %logon  %logstart  %logstate  %logstop  %ls  %lsmagic  %lx  %macro  %magic  %man  %matplotlib  %mkdir  %more  %mv  %notebook  %page  %pastebin  %pdb  %pdef  %pdoc  %pfile  %pinfo  %pinfo2  %popd  %pprint  %precision  %profile  %prun  %psearch  %psource  %pushd  %pwd  %pycat  %pylab  %qtconsole  %quickref  %recall  %rehashx  %reload_ext  %rep  %rerun  %reset  %reset_selective  %rm  %rmdir  %run  %save  %sc  %set_env  %store  %sx  %system  %tb  %time  %timeit  %unalias  %unload_ext  %who  %who_ls  %whos  %xdel  %xmode
+```
+
+
+## Cell magics
+
+Cell magics are prefixed with a double `%%`, and they are functions that get as an argument not only the rest of the line, but also the lines below it in a
 separate argument.  These magics are called with two arguments: the rest of the
 call line and the body of the cell, consisting of the lines below the first.
-For example::
+
+For example:
         
 ```python
 %%timeit x = numpy.random.randn((100, 100))
 numpy.linalg.svd(x)
 ```
 
-will time the execution of the numpy `svd` routine, running the assignment of `x`
-as part of the setup phase, which is not timed.
+will time the execution of the numpy `svd` routine, running the assignment of `x` as part of the setup phase, which is not timed.
+
+Available cell magics:
+```
+%%!  %%HTML  %%SVG  %%bash  %%capture  %%debug  %%file  %%html  %%javascript  %%latex  %%perl  %%prun  %%pypy  %%python  %%python2  %%python3  %%ruby  %%script  %%sh  %%svg  %%sx  %%system  %%time  %%timeit  %%writefile
+```
 
 In a line-oriented client (the terminal or Qt console IPython), starting a new
 input with `%%` will automatically enter cell mode, and IPython will continue
@@ -39,18 +56,42 @@ reading input until a blank line is given.  In the notebook, simply type the
 whole cell as one entity, but keep in mind that the `%%` escape can only be at
 the very start of the cell.
 
-**NOTE**: If you have 'automagic' enabled (via the command line option or with the
-`%automagic` function), you don't need to type in the `%` explicitly for line
-magics; cell magics always require an explicit `%%` escape.  By default,
-IPython ships with automagic on, so you should only rarely need the `%` escape.
+## How-to & some really cool magics
 
-**Example**: typing `%cd mydir` changes your working directory
+If you have 'automagic' enabled (via the command line option or with the `%automagic` function), you don't need to type in the `%` explicitly for line magics; cell magics always require an explicit `%%` escape.  By default,
+IPython ships with automagic on, so you should only rarely need the `%` escape. For example, typing `%cd mydir` changes your working directory
 to 'mydir', if it exists.
 
-For a list of the available magic functions, use `%lsmagic`. For a description
-of any of them, type `%magic_name?`, e.g. `%cd?`.
+For a list of the available magic functions, use `%lsmagic`.
 
-Currently the magic system has the following functions:
+For a description of any of them, type `%magic_name?`, e.g. `%cd?`.
+
+### `%edit`
+
+Brings up an external text editor and executes the resulting code. You will need to set the command for
+this editor via the ``TerminalInteractiveShell.editor`` option in your
+configuration file before it will work.
+
+```
+%edit [options] [args]
+```
+
+### `%%writefile`
+
+Writes the contents of the cell to a file. `-a`, `--append`: Append contents of the cell to an existing file. The file will be created if it does not exist.
+
+```
+%writefile [-a] filename
+```
+
+## `%pastebin`
+
+This magic uploads code to Github's Gist paste bin and returns the URL. The argument can be an input history range, a filename, or the name of a string or macro.
+
+```
+%pastebin [-d "Custom description"] 1-7
+```
+    
 
 ## `%alias`
 
@@ -433,81 +474,7 @@ Currently the magic system has the following functions:
     your existing IPython session.
 %ed:
     Alias for `%edit`.
-%edit:
-    Bring up an editor and execute the resulting code.
 
-    Usage:
-      %edit [options] [args]
-
-    %edit runs an external text editor. You will need to set the command for
-    this editor via the ``TerminalInteractiveShell.editor`` option in your
-    configuration file before it will work.
-
-    This command allows you to conveniently edit multi-line code right in
-    your IPython session.
-
-    If called without arguments, %edit opens up an empty editor with a
-    temporary file and will execute the contents of this file when you
-    close it (don't forget to save it!).
-
-    Options:
-
-    -n <number>
-      Open the editor at a specified line number. By default, the IPython
-      editor hook uses the unix syntax 'editor +N filename', but you can
-      configure this by providing your own modified hook if your favorite
-      editor supports line-number specifications with a different syntax.
-
-    -p
-      Call the editor with the same data as the previous time it was used,
-      regardless of how long ago (in your current session) it was.
-
-    -r
-      Use 'raw' input. This option only applies to input taken from the
-      user's history.  By default, the 'processed' history is used, so that
-      magics are loaded in their transformed version to valid Python.  If
-      this option is given, the raw input as typed as the command line is
-      used instead.  When you exit the editor, it will be executed by
-      IPython's own processor.
-
-    Arguments:
-
-    If arguments are given, the following possibilites exist:
-
-    - The arguments are numbers or pairs of colon-separated numbers (like
-      1 4:8 9). These are interpreted as lines of previous input to be
-      loaded into the editor. The syntax is the same of the %macro command.
-
-    - If the argument doesn't start with a number, it is evaluated as a
-      variable and its contents loaded into the editor. You can thus edit
-      any string which contains python code (including the result of
-      previous edits).
-
-    - If the argument is the name of an object (other than a string),
-      IPython will try to locate the file where it was defined and open the
-      editor at the point where it is defined. You can use ``%edit function``
-      to load an editor exactly at the point where 'function' is defined,
-      edit it and have the file be executed automatically.
-
-      If the object is a macro (see %macro for details), this opens up your
-      specified editor with a temporary file containing the macro's data.
-      Upon exit, the macro is reloaded with the contents of the file.
-
-      Note: opening at an exact line is only supported under Unix, and some
-      editors (like kedit and gedit up to Gnome 2.8) do not understand the
-      '+NUMBER' parameter necessary for this feature. Good editors like
-      (X)Emacs, vi, jed, pico and joe all do.
-
-    - If the argument is not found as a variable, IPython will look for a
-      file with that name (adding .py if necessary) and load it into the
-      editor. It will execute its contents with execfile() when you exit,
-      loading any code in the file into your interactive namespace.
-
-    Unlike in the terminal, this is designed to use a GUI editor, and we do
-    not know when it has closed. So the file you edit will not be
-    automatically executed or printed.
-
-    Note that %edit is also available through the alias %ed.
 %env:
     Get, set, or list environment variables.
 
@@ -2623,34 +2590,3 @@ Currently the magic system has the following functions:
     statement to import function or create variables. Generally, the bias
     does not matter as long as results from timeit.py are not mixed with
     those from %timeit.
-%%writefile:
-    ::
-
-      %writefile [-a] filename
-
-    Write the contents of the cell to a file.
-
-    The file will be overwritten unless the -a (--append) flag is specified.
-
-    positional arguments:
-      filename      file to write
-
-    optional arguments:
-      -a, --append  Append contents of the cell to an existing file. The file will
-                    be created if it does not exist.
-
-## Summary
-
-Summary of magic functions (from `%lsmagic`):
-
-Available line magics:
-```
-%alias  %alias_magic  %autocall  %automagic  %autosave  %bookmark  %cat  %cd  %clear  %colors  %config  %connect_info  %cp  %debug  %dhist  %dirs  %doctest_mode  %ed  %edit  %env  %gui  %hist  %history  %install_default_config  %install_ext  %install_profiles  %killbgscripts  %ldir  %less  %lf  %lk  %ll  %load  %load_ext  %loadpy  %logoff  %logon  %logstart  %logstate  %logstop  %ls  %lsmagic  %lx  %macro  %magic  %man  %matplotlib  %mkdir  %more  %mv  %notebook  %page  %pastebin  %pdb  %pdef  %pdoc  %pfile  %pinfo  %pinfo2  %popd  %pprint  %precision  %profile  %prun  %psearch  %psource  %pushd  %pwd  %pycat  %pylab  %qtconsole  %quickref  %recall  %rehashx  %reload_ext  %rep  %rerun  %reset  %reset_selective  %rm  %rmdir  %run  %save  %sc  %set_env  %store  %sx  %system  %tb  %time  %timeit  %unalias  %unload_ext  %who  %who_ls  %whos  %xdel  %xmode
-```
-
-Available cell magics:
-```
-%%!  %%HTML  %%SVG  %%bash  %%capture  %%debug  %%file  %%html  %%javascript  %%latex  %%perl  %%prun  %%pypy  %%python  %%python2  %%python3  %%ruby  %%script  %%sh  %%svg  %%sx  %%system  %%time  %%timeit  %%writefile
-```
-
-Automagic is ON, `%` prefix IS NOT needed for line magics.
