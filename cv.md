@@ -4,7 +4,7 @@ title: CV
 permalink: /cv/
 ---
 
-Currently, I work as a web-analyst in Saint Petersburg. Here's <a href="https://www.linkedin.com/in/demidovakatya/en"><i class="fa fa-linkedin"></i> my LinkedIn profile</a>.
+<a href="https://www.linkedin.com/in/demidovakatya/en"><i class="fa fa-linkedin"></i> My LinkedIn profile</a>.
 
 ## Courses 
 

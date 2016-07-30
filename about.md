@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi, I'm Katya. I'm 23 years old and I live in Saint Petersburg, Russia.
 
-<p class="in-progress">work in progress</p>
+Currenly I work as a web-analyst, contribute to open source projects from time to time, and [learn new things](/cv.md#Courses). 
 
 Social links:
 
@@ -15,11 +15,6 @@ Social links:
 * [facebook](https://www.facebook.com/demidovakatya)
 * [my photos](http://captain-cotique.tumblr.com)
 
-Current occupation: surfing the web, writing stuff. 
-
-Contributing to open source projects.
-
-Studying. 
 
 > Everything is interesting if you go into it deeply enough.
 
