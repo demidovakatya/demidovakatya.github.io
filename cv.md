@@ -12,6 +12,7 @@ permalink: /cv/
     * <a href="https://www.coursera.org/learn/mathematics-and-python/home/welcome">Математика и Python для анализа данных</a> – <a href="https://www.coursera.org/account/accomplishments/records/W82UVA27KM6U" target="_blank">View Statement of Accomplishment</a>
     * <a href="https://www.coursera.org/learn/supervised-learning/home/welcome">Обучение на размеченных данных</a> – <a href="https://www.coursera.org/account/accomplishments/certificate/7HJB389DV53Y" target="_blank">View Statement of Accomplishment</a>
     * <a href="https://www.coursera.org/learn/unsupervised-learning/home/welcome">Поиск структуры в данных</a> – <a href="https://www.coursera.org/account/accomplishments/certificate/7HJB389DV53Y" target="_blank">View Statement of Accomplishment</a>
+    * <a href="https://www.coursera.org/learn/stats-for-data-analysis/home/welcome">Построение выводов по данным</a>
 * <a href="https://www.coursera.org/learn/vvedenie-mashinnoe-obuchenie/home/info">Введение в машинное обучение</a> (Higher School of Economics) – <a href="https://www.coursera.org/account/accomplishments/records/WUPNNFRC9R9U" target="_blank">View Statement of Accomplishment</a>
 * MIT 6.00.1x: Introduction to Computer Science and Programming Using Python – <a href="https://courses.edx.org/certificates/a0da1fc2bfc745af9e3b2802105ff5dc" target="_blank">View Web Certificate</a>
 * [MITx: 6.00.2x Introduction to Computational Thinking and Data Science](https://courses.edx.org/courses/course-v1:MITx+6.00.2x_5+1T2016/info)
