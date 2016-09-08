@@ -36,6 +36,7 @@ layout: post
 
 * **[Mining massive datasets](http://cs246.stanford.edu)** — про работу с очень большими объёмами данных, про подходящие для этого алгоритмы дата майнинга и машинного обучения и про соответствующие инструменты. В общем, что такое хадуп, мап редьюс, кластеризацию, пэйдж ранк, lsh, etc.
 * Стэнфордский курс по **Natural Language Processing**. Раньше он был на курсере, сейчас видеолекции доступны на [youtube](https://www.youtube.com/playlist?list=PL6397E4B26D00A269). По поводу заданий: [link 1](https://www.quora.com/Why-has-Coursera-stopped-providing-active-courses-in-NLP), [link 2](https://www.quora.com/Coursera-Where-can-I-find-programming-assignments-for-Stanford-Natural-Language-Processing-Class).
+* Серия курсов [Data Science and Engineering with Apache Spark](https://www.edx.org/xseries/data-science-engineering-apache-spark) от Беркли посвящена таким вопросам — что такое Apache Spark, как он устроен и как его использовать для анализа данных и машинного обучения.
 * **Нейронные сети** — на мой взгляд, им в специализации отведено слишком мало времени. Вот неплохие курсы по этой теме:
     * [Нейронные сети](https://stepic.org/course/401) от Института биоинформатики. В рамках курса вас познакомят с теоретическими основами искусственных нейронных сетей и научат применять их на практике для решения задач по анализу данных;
     * Знаменитый курс [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks) от Дж. Хинтона;
