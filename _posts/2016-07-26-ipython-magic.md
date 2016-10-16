@@ -97,9 +97,17 @@ This magic uploads code to Github's Gist paste bin and returns the URL. The argu
 This magic is an absolute must-have! Its basic structure is `%matplotlib [-l] [gui]` and this magics sets up `matplotlib`. For example, 
 
 ```
-In [1]: %matplotlib inline
+In [1]: %matplotlib inlinehttps://github.com/demidovakatya/demidovakatya.github.io.git
 ```
 
 enables the inline backend for usage with the IPython Notebook, which is much more convenient.
+
+## `%debug`
+
+This is an incredibly useful magic! You can use it to activate debugger in post-mortem mode. After you run into an exception, create a new cell, type `%debug`, and hit **Run** to activate the interactive debugger.
+
+Note that this will always work only on the last traceback that occurred, so you must call this quickly after an exception that you wish to inspect has fired, because if another one occurs, it clobbers the previous one.
+
+To exit the debugger, type `exit` and hit **Enter**.
 
 *to be continued...*
