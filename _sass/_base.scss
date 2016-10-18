@@ -129,13 +129,15 @@ blockquote {
 /** * Code formatting */
 pre,
 code {
-    font-size: 15px;
-    border: 1px solid #bdbdbd;
+    font-size: 88%;
+    border: 1px dotted $grey-color-light;
     border-radius: 3px;
 }
 
 code {
-    padding: 1px 5px;
+    padding: 0.5% 1%;
+    font-family: "PT Mono", monospace;
+    background-color: lighten($brand-color, 60%)
 }
 
 pre {
