@@ -21,6 +21,7 @@ Currenly I work as a web-analyst, contribute to open source projects from time t
     * Обучение на размеченных данных – <a href="https://www.coursera.org/account/accomplishments/certificate/7HJB389DV53Y" target="_blank">View Statement of Accomplishment</a>
     * Поиск структуры в данных – <a href="https://www.coursera.org/account/accomplishments/certificate/7HJB389DV53Y" target="_blank">View Statement of Accomplishment</a>
     * Построение выводов по данным
+    * Прикладные задачи анализа данных – <a href="https://www.coursera.org/account/accomplishments/certificate/HYEGEKU7BW3H" target="_blank">View Statement of Accomplishment</a>
 * Введение в машинное обучение (Higher School of Economics) – <a href="https://www.coursera.org/account/accomplishments/records/WUPNNFRC9R9U" target="_blank">View Statement of Accomplishment</a>
 * MIT 6.00.1x: Introduction to Computer Science and Programming Using Python – <a href="https://courses.edx.org/certificates/a0da1fc2bfc745af9e3b2802105ff5dc" target="_blank">View Web Certificate</a>
 * MITx: 6.00.2x Introduction to Computational Thinking and Data Science
