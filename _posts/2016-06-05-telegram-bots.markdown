@@ -25,31 +25,33 @@ _(Except for, maybe, Slack. And Telegram.)_
 
 Secure chats, channels, stickers are awesome. And Telegram bots are awesome as well – you just need someone to show you that awesomeness. I am amazed how easier life may become after adding these bots to your Telegram:
 
-* [App of the Day bot](https://telegram.me/app_of_the_day_bot);
-* [Delorean bot](https://telegram.me/delorean_bot) – sends your messages to the future;
-* [Do It Bot](https://telegram.me/do_itBot);
-* [EvaNote bot](https://telegram.me/EvaNote_bot);
-* [FreeBooksBot](https://telegram.me/FreeBooksBot) – if you miss Flibusta bot, you'll definitely will enjoy this one. Type in what you need, get something in a day or two;
-* [GetMusicBot](https://telegram.me/GetMusicBot);
-* [ImageBot](https://telegram.me/ImageBot);
-* [imandabot](https://telegram.me/imandabot);
-* [latexxbot](https://telegram.me/latexxbot) generates formatted images from your LaTeX code;
-* [Leprazobot](https://telegram.me/Leprazobot);
-* [Lurkmore bot](https://telegram.me/lurkthatbot) – finds Lurkmore articles for you and send it;
-* [Manybot](https://telegram.me/Manybot);
-* [Markdown Robot](https://telegram.me/markdownrobot);
-* [pockebot](https://telegram.me/pockebot);
-* [Pomodoro timer bot](https://telegram.me/pomodoro_timer_bot);
-* [StepicBot](https://telegram.me/StepicBot);
-* [Storebot](https://telegram.me/storebot) – helps you discover the best bots available on Telegram;
-* [Temp Mail Bot](https://telegram.me/temp_mail_bot);
-* [ThesaurusDictBot](https://telegram.me/thesaurusdictbot);
-* [ToDo It bot](https://telegram.me/todoit_bot);
-* [ToPDF Bot](https://telegram.me/topdf_bot);
-* [UrbanDictionary Bot](https://telegram.me/UrbanBot) – allows you to get definitions for words or phrases from UrbanDictionary;
-* [utilsbot](https://telegram.me/utilsbot);
-* [VK Music Bot](https://telegram.me/vkmusic_bot) – helps you to find, listen and download music from vk;
-* [WhoisRobot](https://telegram.me/WhoisRobot);
-* [Wikipedia Voice Bot](https://telegram.me/wikipedia_voice_bot);
-* [WolframBot](https://telegram.me/WolframBot);
-* [YTranslateBot](https://telegram.me/YTranslateBot).
+* [App of the Day bot](https://t.me/app_of_the_day_bot);
+* [Delorean bot](https://t.me/delorean_bot) – sends your messages to the future;
+* [Do It Bot](https://t.me/do_itBot);
+* [EvaNote bot](https://t.me/EvaNote_bot);
+* [Feed Reader bot](https://t.me/TheFeedReaderBot);
+* [FreeBooksBot](https://t.me/FreeBooksBot) – if you miss Flibusta bot, you'll definitely will enjoy this one. Type in what you need, get something in a day or two;
+* [GetMusicBot](https://t.me/GetMusicBot);
+* [ImageBot](https://t.me/ImageBot);
+* [imandabot](https://t.me/imandabot);
+* [Imgur Bot](https://t.me/UploadToImgurBot);
+* [latexxbot](https://t.me/latexxbot) generates formatted images from your LaTeX code;
+* [Leprazobot](https://t.me/Leprazobot);
+* [Lurkmore bot](https://t.me/lurkthatbot) – finds Lurkmore articles for you and send it;
+* [Manybot](https://t.me/Manybot);
+* [Markdown Robot](https://t.me/markdownrobot);
+* [pockebot](https://t.me/pockebot);
+* [Pomodoro timer bot](https://t.me/pomodoro_timer_bot);
+* [StepicBot](https://t.me/StepicBot);
+* [Storebot](https://t.me/storebot) – helps you discover the best bots available on Telegram;
+* [Temp Mail Bot](https://t.me/temp_mail_bot);
+* [ThesaurusDictBot](https://t.me/thesaurusdictbot);
+* [ToDo It bot](https://t.me/todoit_bot);
+* [ToPDF Bot](https://t.me/topdf_bot);
+* [UrbanDictionary Bot](https://t.me/UrbanBot) – allows you to get definitions for words or phrases from UrbanDictionary;
+* [utilsbot](https://t.me/utilsbot);
+* [VK Music Bot](https://t.me/vkmusic_bot) – helps you to find, listen and download music from vk;
+* [WhoisRobot](https://t.me/WhoisRobot);
+* [Wikipedia Voice Bot](https://t.me/wikipedia_voice_bot);
+* [WolframBot](https://t.me/WolframBot);
+* [YTranslateBot](https://t.me/YTranslateBot).
