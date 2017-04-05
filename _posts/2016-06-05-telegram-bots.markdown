@@ -21,6 +21,8 @@ But I know – and, I bet, you know – where are everybody. Slack, Telegram, Wh
 
 _(Except for, maybe, Slack. And Telegram.)_
 
+> And, by the way, here is [my telegram](https://t.me/demidovakatya). Feel free to ask questions or simply send something awesome. :3
+
 ## Telegram's Killer Feature
 
 Secure chats, channels, stickers are awesome. And Telegram bots are awesome as well – you just need someone to show you that awesomeness. I am amazed how easier life may become after adding these bots to your Telegram:
