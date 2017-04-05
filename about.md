@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi, I'm Katya. I'm 24 years old and I live in Saint Petersburg, Russia.
 
-Currenly I work as a web-analyst, contribute to open source projects from time to time, and [learn new things](#Courses). 
+Currenly I work as a Data Analyst, contribute to open source projects from time to time, and help people learn new things (which is an obvious level-up after finishing [all these courses](#Courses)). 
 
 ## Social links
 

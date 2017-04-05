@@ -2,6 +2,7 @@
 layout: post
 title: "Полезные навыки для программистов" 
 published: true
+comments: true
 ---
 
 Source: [theasder.github.io/skills/2014/06/09/useful-programming-skills.html](http://theasder.github.io/skills/2014/06/09/useful-programming-skills.html) (пост удалён, поэтому я скопипастила его сюда).

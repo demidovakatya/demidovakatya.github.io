@@ -1,7 +1,7 @@
 ---
 baseurl: ""
 # excerpt_separator: "\n\n"
-description: "Hi. My name is Katya Demidova, and I'd love to write more."
+description: "Hi. My name is Katya, and this is my blog."
 github_username: demidovakatya
 highlighter: rouge
 kramdown:
@@ -9,7 +9,7 @@ kramdown:
 markdown: kramdown
 paginate_path: /:num
 permalink: "/blog/:title"
-title: "My awesome blog"
+title: "Blog • Katya Demidova"
 url: "http://demidovakatya.github.io"
 defaults:
   -
